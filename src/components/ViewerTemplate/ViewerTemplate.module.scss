@@ -1,0 +1,23 @@
+@charset "UTF-8";
+@import "../../scss/variable.scss";
+
+.header{
+    background: $black;
+    box-sizing: border-box;
+    padding: 0 20px;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    h1{
+        font-size: 26px; 
+    }
+}
+.container{
+    width: 100%;
+    height: calc(100vh - 60px);
+    position: relative;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
